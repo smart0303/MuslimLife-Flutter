@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "muslimlife-372e2",
+  "private_key_id": "57318197975a0c67eed2320531f47972a9b7d15f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4ReVhUnrpMNN8\noc+uZCmqnQBETx3DFOouHwbvHfqG9MmML5FiVtZQ3D9l6fXak2M8w+WvmH5d1ahi\nYPCbCNZxdsAdnEREyrimEdR4d3OJkWPbIOTdvf6KcOj44h0SKvpixQ2fDrJjrxGU\n+XtR1gw7rPx37efaCpLxv0uboqX9C243GurfnT5nboEMRn6y4to2tZnpWAfvE0F5\nPyY/EHNRcoZoJDMypI3yNrp8om31zFqWMEUdgcr46M6FwBfCwATTrN8j0wop7WIF\n7cg/DbPmC417zOt1t9libEJHlgMLB4vFTf/eUXlqejsGr4pw66swfqc/k9ReJJCc\nDqzjwgwjAgMBAAECggEAANuMsSEQxZMjcFg9YmNbni/h3DajVX0fKJv9fmtnP83w\no3qPK+sn1xsFCbOStLu3kFJ9U8m9Ir9BqxHEh18/36hAa85QrM087dMCboKH6OE0\nxAO/f4DlKZBTupUAc5w7TMIiBYdEDmms6hAQRRBSFoBe/IhMhrtiKatZfCQrcwew\nMl4t1RP1++O1nub9FqcNubIw8NRNpPdTSSxzLR7+G7vjzSUVIO1rk4Bk+24xb5lp\n3kEbRulHV4b70CbYOFHjNnT3dgNG5t4olRnYfzkAN+/yDmaxgPVy5Zg8tr1l1iuB\n92fIVnPsuvI3g4Zcxlu6JGkzAz9Oo0kgwC0XbFOCwQKBgQDbTZIIPJD1pSV1a/l+\nT6ns0WQF0qTtFT+5r/FX+9Jlm6gwIDplq3d2xpuOXRB1NQuF/r4Vs6KFHi66mT+t\n7TFf+5qZ/foJ/z0mSnJq4E7Bp3bAs9g6bjGFh0UxNY+E+9y3zXDfQuztvYWmujE5\nHOGH/QQiaUgdZBRyNg+ULihWkwKBgQDXG7kWHdKxX5uQWHAIRgxoDUrOYKziSZAX\nWxwbUjqeJUPGNi2RW9aPkXeT2O5wZj6Srca80TX5w62jP9bUhDrgkh+U264KHfHJ\ntdaIwo7r/Gr21CJH1nBgwvLlFToLvK2AOV/266nTpLh8/oKqtKrdbs3An4tu1l24\nIXilVPLeMQKBgHkEXFKJQaEcigg7Fkm6olWZ0u1XqUVfVXQdgDwCLb9+Xxh3oGIc\ndecogAzWlE9pfztpMPH+1+9HkZfNG5PZ8UY7LLxPp9w+ajsoF+2cbDl3NRPv6qGL\nz24VEHywRsumxMz05JV/dAlZbVhtJN6UbmxBljd7C52Ubaf85ynpMr9bAoGAZKCB\nawk0gOla2qGkdxpdv2dIcVbkSU9kaqiic116MnT4SYcatf8iVjMUn0NB96684t0M\nNVQhTd/uIIpCs1PQPzHcOES0G+N6MoQwAfYR6e9BEoqWJsj39Sv9eJD/gHIZL/yn\nGdmQroNGEqL0+Wpe7AtjkRKRpZ3+ZZ6y05TzsGECgYAg/yG2VX1UFUlmP/5vCj4F\nT3n6XRzfEdYAjTZc1R3fYDsFh+jqglcd4ingIXgjWIEmLDYZYOsfVRYsNZz8lN8J\nhPvS8Uawmf+00eKiSQGqRBaU16K7Efcm8qqooECym7n52cffexJzt2SaPqGfjwVO\n5USjc4Tj9l+wqhhikd3PhQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "muslimlife@muslimlife-372e2.iam.gserviceaccount.com",
+  "client_id": "106735228455495228039",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/muslimlife%40muslimlife-372e2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,252 @@
+name: Muslimlife
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.4+8
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get:
+  flutter_timezone: ^4.1.0 
+  firebase_storage:
+  cloud_firestore:
+  flutter_screenutil: 
+  flutter_svg: 
+  shared_preferences: 
+  pin_code_fields: 
+  webview_flutter: 
+  flutter_spinkit: 
+  audioplayers:
+  flutter_launcher_icons: 
+  flutter_native_splash:
+  colorful_safe_area:
+  flutter_swiper_view:
+  sqflite:
+  intl:
+  fluttertoast:
+  provider:
+  fl_chart:
+  geolocator:
+  adhan:
+  permission_handler:
+  flutter_qiblah: 
+  onesignal_flutter:
+  firebase_core: 
+  flutter_local_notifications: 
+  carousel_slider:
+  google_fonts: 
+  image_picker:
+  youtube_player_flutter:
+  flutter_wallpaper_manager:
+  flutter_cache_manager:
+  cached_network_image:
+  dio:
+  image_gallery_saver:
+  hijri:
+  google_maps_flutter: 
+  geocoding: 
+  uuid: 
+  flutter_dotenv:
+  table_calendar: 
+  flutter_bloc:
+  equatable:
+  connectivity_plus:
+  dartz: 
+  get_it: 
+  injectable:
+  easy_localization: 
+  lottie: 
+  freezed_annotation: 
+  json_annotation: 
+  hive: 
+  path_provider: 
+  hive_flutter: 
+  oktoast: 
+  scrollable_positioned_list: 
+  share_plus: 
+  formz:
+  in_app_purchase: 
+  package_info_plus:
+  url_launcher:
+  flutter_localized_locales: 
+  firebase_messaging: 
+  firebase_analytics: 
+  in_app_review:
+  timeago: 
+  firebase_remote_config:
+  dynamic_color:
+  flutter_markdown: 
+  flutter_localizations:
+    sdk: flutter
+  google_maps_flutter_ios:
+   
+
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+  macos:
+    generate: true
+    image_path: "assets/images/logo.png"
+    icon_size: 48
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.0.6
+  injectable_generator:
+  freezed: ^2.4.0
+  json_serializable: ^6.7.1
+  hive_generator: ^2.0.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/locales/
+    - .env
+    - assets/translations/
+    - assets/lottie/
+    - assets/svg/
+    - assets/gif/
+    - assets/metadata/Quran/
+    - assets/athanalbum/
+
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Regular.ttf
+  #         style: italic
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Regular.ttf
+        - asset: assets/fonts/Lato/Lato-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Lato/Lato-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Lato/Lato-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Lato/Lato-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Lato/Lato-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Lato/Lato-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Lato/Lato-LightItalic.ttf
+          weight: 300
+          style: italic
+    - family: Mirza
+      fonts:
+        - asset: assets/fonts/Arabic/Mirza/Mirza-Regular.ttf
+        - asset: assets/fonts/Arabic//Mirza/Mirza-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Arabic//Mirza/Mirza-SemiBold.ttf
+          weight: 600
+    - family: DecoType-Thuluth-II
+      fonts:
+        - asset: assets/fonts/Arabic/DecoType-Thuluth-II-Regular.ttf
+    - family: Othmani
+      fonts:
+        - asset: assets/fonts/Arabic/Othmani.ttf
+    - family: Quran1
+      fonts:
+        - asset: assets/fonts/Arabic/Quran1.ttf
+    - family: Lotus-Linotype
+      fonts:
+        - asset: assets/fonts/Arabic/LotusLinotype-Bold.otf
+        - asset: assets/fonts/Arabic/LotusLinotype-Light.otf
+          weight: 300
+    - family: Al-Majeed
+      fonts:
+        - asset: assets/fonts/Arabic/Al-Majeed-Quranic.ttf
+    - family: Al-Mushaf
+      fonts:
+        - asset: assets/fonts/Arabic/Al-Mushaf-Quran.ttf
+    - family: Al-Qalam
+      fonts:
+        - asset: assets/fonts/Arabic/Al-Qalam-Quran.ttf
+    - family: Arslan-Wessam-A
+      fonts:
+        - asset: assets/fonts/Arabic/Arslan-Wessam-A.ttf
+    - family: Arslan-Wessam-B
+      fonts:
+        - asset: assets/fonts/Arabic/Arslan-Wessam-B.ttf
+    - family: Deco-Type
+      fonts:
+        - asset: assets/fonts/Arabic/Deco-Type.ttf
+    - family: Hafs
+      fonts:
+        - asset: assets/fonts/Arabic/Hafs.ttf
+    - family: Janna-LT
+      fonts:
+        - asset: assets/fonts/Arabic/Janna-LT-Bold.ttf
+    - family: LPMQ-IsepMisbah
+      fonts:
+        - asset: assets/fonts/Arabic/LPMQ-IsepMisbah.ttf
+    - family: Me-Quran
+      fonts:
+        - asset: assets/fonts/Arabic/Me-Quran.ttf
+    - family: Muhammadi
+      fonts:
+        - asset: assets/fonts/Arabic/Muhammadi.ttf
+    - family: Nabi
+      fonts:
+        - asset: assets/fonts/Arabic/Nabi.ttf
+    - family: Neirizi
+      fonts:
+        - asset: assets/fonts/Arabic/Neirizi.ttf
+    - family: PDMS-Saleem
+      fonts:
+        - asset: assets/fonts/Arabic/PDMS-Saleem.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
